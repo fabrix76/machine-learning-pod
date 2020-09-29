@@ -2,7 +2,7 @@
 # Introduction
 Datascience is a intense activity, made by sessions of data clean, sessions of training and compare result of the models and, finally, get it in production.
 
-In enterprise there are a lot of way to achieve this, but at home it's a little bit different, being a developer, often i need to adjust something and git is usefull to take note of what I'm doing, so i decited do add it, the second need has been to schedule runs of my jobs. Datamining jobs, but also forecast jobs, because obviously at the end I would like to get forecast from my neuralnets and something must run it at specific time, so I decided to use Cron, but inside a container it's ugly to use, so I included a great web frontend found here on [github] (https://github.com/alseambusher/crontab-ui), thanks to Suresh Alse.
+In enterprise there are a lot of way to achieve this, but at home it's a little bit different, being a developer, often i need to adjust something and git is usefull to take note of what I'm doing, so i decited do add it, the second need has been to schedule runs of my jobs. Datamining jobs, but also forecast jobs, because obviously at the end I would like to get forecast from my neuralnets and something must run it at specific time, so I decided to use Cron, but inside a container it's ugly to use, so I included a great web frontend found here on [github](https://github.com/alseambusher/crontab-ui), thanks to Suresh Alse.
 
 # Available Kernels
 Staring from Python, adding nice features like cron and git i decided to add also other kernel, because changing scenario some needs are the same (scheduling and versioning). Jupyter is really cool and I asked myself why create another thing to do the same work? 
