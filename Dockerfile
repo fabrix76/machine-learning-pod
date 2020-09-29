@@ -1,7 +1,7 @@
 FROM debian:latest
 
 LABEL maintainer "Fabrizio Mantione (fabrizio.mantione@gmail.com)"
-LABEL description "Jupyter lab (port 8888) with cron and crontab-ui web frontend (port 80) to manage cron schedulation"
+LABEL description "Jupyter lab (port 8888) with cron and crontab-ui web frontend (port 80) to manage cron schedulation and git web-ui (port 8080)"
 
 ENV PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
